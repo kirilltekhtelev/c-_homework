@@ -12,21 +12,18 @@ int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
 int max = 0;
 
-if(secondnumber > firstNumber && secondnumber > thirdNumber)
+
+if(thirdNumber > firstNumber && thirdNumber > secondnumber) 
 {
     max = thirdNumber;
-    Console.WriteLine(max);
-} 
+}
+else if (secondnumber > firstNumber)
+{
+    max = secondnumber;
+}
 else 
 {
-    if (thirdNumber > firstNumber)
-    {
-        max = thirdNumber;
-        Console.WriteLine(max);
-    }
-    else
-    {
-        max = firstNumber;
-        Console.WriteLine(max);
-    }
+    max = firstNumber;
 }
+
+Console.WriteLine(max);
