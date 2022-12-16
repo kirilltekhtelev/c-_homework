@@ -12,7 +12,7 @@ int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
 int max = 0;
 
-if(secondnumber > firstNumber || secondnumber > thirdNumber)
+if(secondnumber > firstNumber && secondnumber > thirdNumber)
 {
     max = thirdNumber;
     Console.WriteLine(max);
