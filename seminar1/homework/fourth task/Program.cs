@@ -15,15 +15,18 @@ int max = 0;
 if(secondnumber > firstNumber || secondnumber > thirdNumber)
 {
     max = thirdNumber;
+    Console.WriteLine(max);
 } 
 else 
 {
     if (thirdNumber > firstNumber)
     {
         max = thirdNumber;
+        Console.WriteLine(max);
     }
     else
     {
         max = firstNumber;
+        Console.WriteLine(max);
     }
 }
