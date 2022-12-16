@@ -9,5 +9,6 @@ while (i <= (a*2))
 {
     Console.Write(b);
     i = i++;
+    Console.Write(i);
     b = b++;
 }
