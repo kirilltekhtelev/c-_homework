@@ -8,7 +8,7 @@ int b = -(a*2);
 while (i <= (a*2)) 
 {
     Console.Write(b);
-    i = i++;
+    i = i + 1;
     Console.Write(i);
-    b = b++;
+    b = b + 1;
 }
