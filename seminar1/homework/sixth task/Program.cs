@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Enter number");
-int evenNumber = Converte.ToInt32(Console.ReadLine());
+int evenNumber = Convert.ToInt32(Console.ReadLine());
 
 if(evenNumber % 2 == 0)
 {
