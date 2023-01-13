@@ -1,10 +1,4 @@
-﻿int readInt (string message)
-{
-    Console.WriteLine(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-int createRandomNumber (int leftRange, int rigthRange)
+﻿int createRandomNumber (int leftRange, int rigthRange)
 {
     int number = new Random().Next(leftRange, rigthRange + 1);
     return number;
