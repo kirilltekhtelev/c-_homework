@@ -17,7 +17,7 @@
         }
         for(int i = row + 1;i < matrix.GetLength(0) - row; i++)
         {
-            matrix[i,matrix.GetLength(1) - colummmns - 1] = number;
+            matrix[i,matrix.GetLength(1) - columns - 1] = number;
             number += 1;
         }
         for(int j = matrix.GetLength(1)- columns - 2;j >= columns; j--)
